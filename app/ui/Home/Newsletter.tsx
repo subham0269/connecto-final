@@ -4,7 +4,7 @@ import NewsImg from '@/public/Images/Home/newsletter.svg';
 
 const NewsLetterJoin:FC = () => {
     return (
-        <div className="bg-[#D7B4E4] flex justify-around items-center">
+        <div className="bg-[#D7B4E4] flex justify-around items-center rounded-sm">
             <div className="space-y-12">
                 <div className="space-y-5">
                 <p className="font-bold text-4xl text-white">Discover Events, <span className="text-black">Make</span> Friends!</p>
