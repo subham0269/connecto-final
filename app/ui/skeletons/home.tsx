@@ -15,11 +15,6 @@ export function CircleImgSkel() {
     )
 }
 
-export function SquareimgSkel () {
-    return (
-        <div className="rounded-sm size-64 bg-gray-200" />
-    )
-}
 
 export function CircleList () {
     return (
@@ -34,19 +29,30 @@ export function CircleList () {
     )
 }
 
+export function SquareimgSkel () {
+    return (
+        <div className="rounded-sm size-64 bg-gray-200" />
+    )
+}
+
+export function SquareList () {
+    return (
+        <div className="h-full flex justify-center md:space-x-10">
+            <SquareimgSkel />
+            <SquareimgSkel />
+            <SquareimgSkel />
+            <SquareimgSkel />
+        </div>
+        
+    )
+}
+
 export function CircleListContainerSkeleton () {
     
     return (
         <div className="w-full space-y-4 animate-pulse">
             <Heading />
-            <div className="h-full flex justify-center md:space-x-10">
-                <CircleImgSkel />
-                <CircleImgSkel />
-                <CircleImgSkel />
-                <CircleImgSkel />
-                <CircleImgSkel />
-                <CircleImgSkel />
-            </div>
+            <CircleList />
         </div>
     )
 }
@@ -55,12 +61,7 @@ export function SquareListContainerSkeleton () {
     return (
         <div className="w-full h-96 space-y-4 animate-pulse">
             <Heading />
-            <div className="h-full flex justify-center md:space-x-10">
-                <SquareimgSkel />
-                <SquareimgSkel />
-                <SquareimgSkel />
-                <SquareimgSkel />
-            </div>
+            <SquareList />
         </div>
     )
 }

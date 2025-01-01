@@ -4,7 +4,10 @@ import type { FC } from "react"
 import EventCard from "./EventCard";
 import Link from "next/link";
 
-const SquareList:FC = () => {
+const SquareList:FC = async () => {
+
+    await new Promise(res => setTimeout(res, 1500))
+    
     return (
         <div className="flex flex-col md:flex-row space-y-6 space-x-0 md:space-x-10 md:space-y-0 items-start md:justify-center">
             {eventsTestList.map((d:AtomicCard, i:number) => 
