@@ -1,10 +1,10 @@
 import { FC, Suspense } from "react";
-import ArtistContainer from "../ui/Home/CircleContainer";
-import EventsContainer from "../ui/Home/EventsContainer";
-import OrgContainer from "../ui/Home/OrgContainer";
-import NewsLetterJoin from "../ui/Home/Newsletter";
-import { CircleListContainerSkeleton, SquareListContainerSkeleton } from "../ui/skeletons/home";
-import MusicContainer from "../ui/Home/MusicContainer";
+import ArtistContainer from "../../ui/Home/CircleContainer";
+import EventsContainer from "../../ui/Home/EventsContainer";
+import OrgContainer from "../../ui/Home/OrgContainer";
+import NewsLetterJoin from "../../ui/Home/Newsletter";
+import { CircleListContainerSkeleton, SquareListContainerSkeleton } from "../../ui/skeletons/home";
+import MusicContainer from "../../ui/Home/MusicContainer";
 
 const Page:FC = async () => {
 

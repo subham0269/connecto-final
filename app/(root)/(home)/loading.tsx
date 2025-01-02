@@ -1,4 +1,4 @@
-import { CircleListContainerSkeleton, NewsLetterSkeleton, SquareListContainerSkeleton } from "../ui/skeletons/home";
+import { CircleListContainerSkeleton, NewsLetterSkeleton, SquareListContainerSkeleton } from "../../ui/skeletons/home";
 
 export default function Loading() {
     return (
