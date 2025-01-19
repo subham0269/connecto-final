@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
 
@@ -9,13 +9,16 @@ const Suggestions:FC = () => {
             {/* <div className="text-[#000000CC] text-xl font-bold">You may also like</div> */}
             <div className="flex space-x-4 justify-around items-center">
                 <Link href={'/'}>
-                    <Image className="col-span-1" src="./images/event-poster-1.png" alt="event-poster" />
+                    <div className="size-64 bg-gray-200" />
+                    {/* <Image className="col-span-1" src="" alt="event-poster" /> */}
                 </Link>
                 <Link href={'/'}>
-                    <Image className="col-span-1" src="./images/event-poster-2.png" alt="event-poster" />
+                    <div className="size-64 bg-gray-200" />
+                    {/* <Image className="col-span-1" src="" alt="event-poster" /> */}
                 </Link>
                 <Link href={'/'}>
-                    <Image className="col-span-1" src="./images/event-poster-3.png" alt="event-poster" />
+                    <div className="size-64 bg-gray-200" />
+                    {/* <Image className="col-span-1" src="" alt="event-poster" /> */}
                 </Link>
             </div>
         </>

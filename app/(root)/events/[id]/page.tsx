@@ -41,8 +41,8 @@ const Event:FC<EventProps> = async ({params}) => {
                         <ArtistInfo/>
                     </div>
                 </div>
-                <div className="col-span-4 sm:p-5 p-4 rounded-lg shadow-secondaryShadow">
-                    <div className="text-[#000000CC] text-lg sm:text-xl md:text-2xl font-bold">You may also like</div>
+                <div className="col-span-4 sm:p-5 p-4 rounded-lg shadow-secondaryShadow space-y-2">
+                    <div className="text-[#000000CC] text-lg sm:text-xl md:text-2xl font-semibold">You may also like</div>
                     <Suggestions />
                 </div>
             </div>
