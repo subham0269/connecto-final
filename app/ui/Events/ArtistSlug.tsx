@@ -9,7 +9,7 @@ const Artist = () => {
     return (
     <>
         <div className="flex items-center justify-start space-x-4">
-            <img src="./images/artists/taylor.png" className="size-24" loading="lazy" alt="artist-img" />
+            <Image src="./images/artists/taylor.png" className="size-24" loading="lazy" alt="artist-img" />
             <span className="text-[#000000BF] text-xl font-semibold">Taylor Swift</span>
         </div>
         <ul className="space-y-3">
