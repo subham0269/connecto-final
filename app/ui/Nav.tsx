@@ -50,7 +50,7 @@ const Navbar : FC = () => {
     if(currentPath === '/dashboard') return null; //Returning null if the dashboard route is active
     
     return (
-        <nav className={`bg-white sticky top-0 z-40 w-full mb-8 transition-all delay-100 duration-100 ease-in-out ${!isVisible ? 'drop-shadow-md' : 'drop-shadow-none'}`}>
+        <nav className={`bg-white sticky top-0 z-40 w-full mb-7 transition-all delay-100 duration-100 ease-in-out ${!isVisible ? 'drop-shadow-md' : 'drop-shadow-none'}`}>
             <div className="mx-auto max-w-[1333px] py-4 px-10 md:px-20 flex justify-between items-center sm:space-x-5 md:space-x-16">
             <Link href='/'><Image src={logo} alt="logo" /></Link>
             <div className="relative grow">

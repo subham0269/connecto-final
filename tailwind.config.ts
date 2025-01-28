@@ -15,8 +15,8 @@ const config: Config = {
       },
       boxShadow:{
         primaryShadow: "0px 0px 6px 0px #5A52FF",
-        secondaryShadow: "0px 2px 28px 0px #0000001C"
-      }
+        secondaryShadow: "0px 2px 14px 0px #0000001C"
+      },
     },
   },
   plugins: [],
