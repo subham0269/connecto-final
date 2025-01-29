@@ -66,9 +66,9 @@ const Navbar : FC = () => {
             </div>
             <div className={`absolute z-40 w-full overflow-hidden bg-[#D9D9D9B6] backdrop-blur-md grid transition-all duration-200 ease-in-out ${isVisible ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
                 <div className="overflow-hidden text-[14px] flex justify-around text-[#000000C7] mx-auto space-x-10">
-                    <Link className="hover:underline py-1" href='/events'>Events near me</Link>
-                    <Link href={''} className="hover:underline py-1">Trending Events</Link>
-                    <Link href={''} className="hover:underline py-1">Become an Organizer</Link>
+                    <Link className="hover:underline py-1" href='/events-near-me'>Events near me</Link>
+                    <Link href={'/trending-events'} className="hover:underline py-1">Trending Events</Link>
+                    <Link href={'/become-an-organizer'} className="hover:underline py-1">Become an Organizer</Link>
                 </div>
             </div>
 
